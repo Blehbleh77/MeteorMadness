@@ -1,42 +1,12 @@
-# **🌌 Meteor Madness- NASA Space Apps 2025** 
+# **🌌 Meteor Madness- NASA Space Apps 2025**
 
 
 
-!\[Meteor Madness Banner](assets/images/meteor\_madness\_banner.png)
+![Meteor Madness Banner](assets/images/meteor_madness_banner.png)
 
 
 
-**Interactive Asteroid Impact Simulation \& Arcade Game**
-
-
-
----
-
-
-
-##### **## Challenge Overview**
-
-
-
-\*\*Event:\*\* 2025 NASA Space Apps Challenge  
-
-
-
-\*\*Difficulty:\*\* Beginner/Youth, Intermediate, Advanced  
-
-
-
-\*\*Subjects:\*\* Astrophysics, Coding, Data Analysis, Disaster Response, Space Exploration, Statistics  
-
-
-
-NASA’s challenge:  
-
-> A newly identified near-Earth asteroid, \*Impactor-2025\*, poses a potential threat to Earth. Develop an interactive visualization and simulation tool that integrates NASA and USGS datasets, allowing users to model asteroid impact scenarios, predict consequences, and explore mitigation strategies.
-
-
-
-Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifically informed platform to explore asteroid impacts and defend Earth in real-time.
+**Interactive Asteroid Impact Simulation & Arcade Game**
 
 
 
@@ -44,19 +14,50 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-#### \## 🎯 Objectives
+## ** 🚀Challenge Overview**
 
 
 
-\- Enable users to \*\*simulate asteroid impacts\*\* using size, velocity, angle, and material inputs  
+**Event:** 2025 NASA Space Apps Challenge
 
 
 
-\- Calculate \*\*impact energy, crater size, and environmental effects\*\*  
+**Difficulty:** Beginner/Youth, Intermediate, Advanced
 
 
 
-\- Provide \*\*interactive visualizations\*\* with Pygame arcade gameplay
+**Subjects:** Astrophysics, Coding, Data Analysis, Disaster Response, Space Exploration, Statistics
+
+
+
+NASA’s challenge:
+
+> A newly identified near-Earth asteroid, \\\*Impactor-2025\\\*, poses a potential threat to Earth. Develop an interactive visualization and simulation tool that integrates NASA and USGS datasets, allowing users to model asteroid impact scenarios, predict consequences, and explore mitigation strategies.
+
+
+
+Our solution: **Meteor Madness** – an engaging, educational, and scientifically informed platform to explore asteroid impacts and defend Earth in real-time.
+
+
+
+---
+
+
+
+## 🎯 **Objectives**
+
+
+
+- Enable users to **simulate asteroid impacts** using size, velocity, angle, and material inputs
+
+
+
+- Calculate **impact energy, crater size, and environmental effects**
+
+
+
+- Provide **interactive visualizations** with Pygame arcade gameplay
+
 
 
 
@@ -65,55 +66,27 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-#### \## 🎮 Features
+## 🎮 Features
 
 
 
-##### \### 1. Game Mode (Arcade)
+### 1. Game Mode (Arcade)
 
 
 
-\- Flick meteors away to protect Earth  
+- Flick meteors away to protect Earth
 
 
 
-\- Dynamic asteroid spawning with increasing difficulty  
+- Dynamic asteroid spawning with increasing difficulty
 
 
 
-\- Explosions, score tracking, and game-over mechanics  
+- Explosions, score tracking, and game-over mechanics
 
 
 
-!\[Game Mode Screenshot](assets/images/game\_mode\_screenshot.png)
-
-
-
----
-
-
-
-##### \### 2. Exploration Mode (Simulation)
-
-
-
-\- Input asteroid parameters: \*\*diameter, velocity, impact angle, material, location\*\*  
-
-
-
-\- Calculates \*\*mass, effective energy, and estimated crater size\*\*  
-
-
-
-\- Shows \*\*potential risks and environmental effects\*\* (tsunamis, fires, shockwaves)  
-
-
-
-\- Designed with \*\*neon-themed interface\*\* for an engaging user experience  
-
-
-
-!\[Exploration Mode Screenshot](assets/images/exploration\_mode\_screenshot.png)
+![Game Mode Screenshot](assets/images/game_mode_screenshot.png)
 
 
 
@@ -121,23 +94,27 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-##### \### 3. Streamlit Main Menu (Hub)
+## **2. Exploration Mode** (Simulation)
 
 
 
-\- One-click access to both \*\*Game Mode\*\* and \*\*Exploration Mode\*\*  
+- Input asteroid parameters: **diameter, velocity, impact angle, material, location**
 
 
 
-\- Launch Pygame locally or Exploration Mode in browser  
+- Calculates **mass, effective energy, and estimated crater size**
 
 
 
-\- Visually appealing with logo and instructions  
+- Shows **potential risks and environmental effects** (tsunamis, fires, shockwaves)
 
 
 
-!\[Main Menu Screenshot](assets/images/main\_menu\_screenshot.png)
+- Designed with **neon-themed interface** for an engaging user experience
+
+
+
+![Exploration Mode Screenshot](assets/images/exploration_mode_screenshot.png)
 
 
 
@@ -145,11 +122,35 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-#### \## ⚙️ How to Run
+## **3. Streamlit Main Menu** (Hub)
 
 
 
-##### \### 1. Clone Repository
+- One-click access to both **Game Mode** and **Exploration Mode**
+
+
+
+- Launch Pygame locally or Exploration Mode in browser
+
+
+
+- Visually appealing with logo and instructions
+
+
+
+![Main Menu Screenshot](assets/images/main\_menu\_screenshot.png)
+
+
+
+---
+
+
+
+## ⚙️ How to Run
+
+
+
+### 1. Clone Repository
 
 ```bash
 
@@ -161,7 +162,7 @@ cd MeteorMadness
 
 
 
-##### \### 2. Install Dependencies
+### 2. Install Dependencies
 
 
 
@@ -173,13 +174,13 @@ pip install -r requirements.txt
 
 
 
-##### \### 3. Run Main Menu (Streamlit Hub)
+### 3. Run Main Menu (Streamlit Hub)
 
 
 
 ```bash
 
-streamlit run main\_menu.py
+streamlit run main_menu.py
 
 ```
 
@@ -189,39 +190,39 @@ streamlit run main\_menu.py
 
 
 
-#### \## 📊 Technical Details
+## 📊 Technical Details
 
 
 
-\- \*\*Languages \& Libraries:\*\* Python, Pygame, Streamlit, NumPy  
-
-
-
-
-
-\- \*\*Physics \& Calculations:\*\*
-
-
-
-&nbsp; - Kinetic energy and mass based on asteroid size \& material  
-
-
-
-&nbsp; - Crater diameter scaling and angle effects  
-
-
-
-&nbsp; - Environmental risk modeling (land/ocean, shallow/steep impacts)  
+- **Languages & Libraries:** Python, Pygame, Streamlit, NumPy
 
 
 
 
 
-\- \*\*Assets:\*\* Fonts, images, and UI effects for immersive gameplay  
+- **Physics & Calculations:**
 
 
 
-\- \*\*Modular Design:\*\* Easily extendable for new modes, asteroid types, or datasets  
+  - Kinetic energy and mass based on asteroid size \& material
+
+
+
+  - Crater diameter scaling and angle effects
+
+
+
+  - Environmental risk modeling (land/ocean, shallow/steep impacts)
+
+
+
+
+
+- **Assets:** Fonts, images, and UI effects for immersive gameplay
+
+
+
+- **Modular Design:** Easily extendable for new modes, asteroid types, or datasets
 
 
 
@@ -231,35 +232,19 @@ streamlit run main\_menu.py
 
 #### 
 
-#### \## 🏆 Standout Features
+## 🏆 Standout Features
 
 
 
-\- \*\*Gamification:\*\* Arcade mode and interactive exploration  
+- **Gamification:** Arcade mode and interactive exploration
 
-\- \*\*Educational Overlays:\*\* Tooltips and explanations of physics concepts  
+- **Educational Overlays:** Tooltips and explanations of physics concepts
 
-\- \*\*Neon Visuals:\*\* Sci-fi themed interface for engagement  
+- **Neon Visuals:** Sci-fi themed interface for engagement
 
-\- \*\*Expandable Framework:\*\* Ready for real NASA \& USGS dataset integration  
+- **Expandable Framework:** Ready for real NASA & USGS dataset integration
 
-\- \*\*Accessibility \& Engagement:\*\* Easy-to-use hub for all audiences  
-
-
-
----
-
-
-
-#### \## 📂 Submission Notes
-
-
-
-\- Assets folder must remain in the same directory as Python files  
-
-\- Future plan: Convert `exploration\_mode.py` to Pygame for consistent gameplay  
-
-\- Optional: Package Game Mode and Exploration Mode as executables with PyInstaller  
+- **Accessibility & Engagement:** Easy-to-use hub for all audiences
 
 
 
@@ -267,31 +252,15 @@ streamlit run main\_menu.py
 
 
 
-#### \## 📹 Demo / Media
+## 📂 Submission Notes
 
 
 
-\- Gameplay Video (optional, if you record one)  
+- Assets folder must remain in the same directory as Python files
 
-\- Screenshots included above for visual reference  
+- Future plan: Convert `exploration_mode.py` to Pygame for consistent gameplay
 
-
-
----
-
-
-
-#### \## 🔮 Future Work
-
-
-
-\- Integrate real NASA NEO API data for asteroid trajectories  
-
-\- Model deflection strategies like kinetic impactors or gravity tractors  
-
-\- Add 3D visualizations of impact zones and orbital paths  
-
-\- Web-based deployment via Streamlit Cloud for public accessibility  
+- Optional: Package Game Mode and Exploration Mode as executables with PyInstaller
 
 
 
@@ -299,15 +268,13 @@ streamlit run main\_menu.py
 
 
 
-#### \## 📝 References \& Resources
+## 📹 Demo / Media
 
 
 
-\- NASA Near-Earth Object Program  
+- Gameplay Video (optional, if you record one)
 
-\- USGS Geological Datasets  
-
-\- Hackathon Challenge: NASA Space Apps 2025  
+- Screenshots included above for visual reference
 
 
 
@@ -315,15 +282,45 @@ streamlit run main\_menu.py
 
 
 
-#### \## 📧 Contact
+## 🔮 Future Work
 
 
 
-\*\*Team Meteor Madness\*\*  
+- Integrate real NASA NEO API data for asteroid trajectories
 
-\- GitHub: \[https://github.com/YourUsername/MeteorMadness](https://github.com/YourUsername/MeteorMadness)  
+- Model deflection strategies like kinetic impactors or gravity tractors
+
+- Add 3D visualizations of impact zones and orbital paths
+
+- Web-based deployment via Streamlit Cloud for public accessibility
 
 
 
+---
 
+
+
+## 📝 References & Resources
+
+
+
+- NASA Near-Earth Object Program
+
+- USGS Geological Datasets
+
+- Hackathon Challenge: NASA Space Apps 2025
+
+
+
+---
+
+
+
+## 📧 Contact
+
+
+
+**Team Meteor Madness**
+
+- GitHub: [https://github.com/Blehbleh77/MeteorMadness](https://github.com/Blehbleh77/MeteorMadness)(...)
 
