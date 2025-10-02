@@ -169,137 +169,108 @@ git clone https://github.com/YourUsername/MeteorMadness.git
 
 cd MeteorMadness
 
+---
 
 
-2\. Install Dependencies
 
 
+
+\###2. Install Dependencies
+
+```bash
 
 pip install -r requirements.txt
 
+---
 
 
-3\. Run Main Menu (Streamlit Hub)
 
 
 
+\###3. Run Main Menu (Streamlit Hub)
+
+```bash
 streamlit run main\_menu.py
 
 
 
-📊 Technical Details
+---
 
 
 
-Languages \& Libraries: Python, Pygame, Streamlit, NumPy
+\##📊 Technical Details
 
 
 
-Physics \& Calculations:
+-Languages \& Libraries: Python, Pygame, Streamlit, NumPy
 
+-Physics \& Calculations:
 
+-Kinetic energy and mass based on asteroid size \& material
 
-Kinetic energy and mass based on asteroid size \& material
+-Crater diameter scaling and angle effects
 
+-Environmental risk modeling (land/ocean, shallow/steep impacts)
 
+-Assets: Fonts, images, and UI effects for immersive gameplay
 
-Crater diameter scaling and angle effects
+-Modular Design: Easily extendable for new modes, asteroid types, or datasets
 
+---
 
 
-Environmental risk modeling (land/ocean, shallow/steep impacts)
 
+\##🏆 Standout Features
 
 
-Assets: Fonts, images, and UI effects for immersive gameplay
 
+-Gamification: Arcade mode and interactive exploration
 
+-Educational Overlays: Tooltips and explanations of physics concepts
 
-Modular Design: Easily extendable for new modes, asteroid types, or datasets
+-Neon Visuals: Sci-fi themed interface for engagement
 
+-Expandable Framework: Ready for real NASA \& USGS dataset integration
 
+-Accessibility \& Engagement: Easy-to-use hub for all audiences📂 Submission Notes
 
-🏆 Standout Features
+-Assets folder must remain in the same directory as Python files
 
+-Future plan: Convert exploration\_mode.py to Pygame for consistent gameplay
 
+-Optional: Package Game Mode and Exploration Mode as executables with PyInstaller
 
-Gamification: Arcade mode and interactive exploration
+---
 
 
 
-Educational Overlays: Tooltips and explanations of physics concepts
+\##📹 Demo / Media
 
+-Gameplay Video (optional, if you record one)
 
+-Screenshots included above for visual reference
 
-Neon Visuals: Sci-fi themed interface for engagement
+---
 
+\##🔮 Future Work
 
+-Integrate real NASA NEO API data for asteroid trajectories
 
-Expandable Framework: Ready for real NASA \& USGS dataset integration
+-Model deflection strategies like kinetic impactors or gravity tractors
 
+-Add 3D visualizations of impact zones and orbital paths
 
+-Web-based deployment via Streamlit Cloud for public accessibility
 
-Accessibility \& Engagement: Easy-to-use hub for all audiences📂 Submission Notes
+---
 
+\##📝 References \& Resources
 
+-NASA Near-Earth Object Program
 
-Assets folder must remain in the same directory as Python files
+-USGS Geological Datasets
 
-
-
-Future plan: Convert exploration\_mode.py to Pygame for consistent gameplay
-
-
-
-Optional: Package Game Mode and Exploration Mode as executables with PyInstaller
-
-
-
-📹 Demo / Media
-
-
-
-Gameplay Video (optional, if you record one)
-
-
-
-Screenshots included above for visual reference
-
-
-
-🔮 Future Work
-
-
-
-Integrate real NASA NEO API data for asteroid trajectories
-
-
-
-Model deflection strategies like kinetic impactors or gravity tractors
-
-
-
-Add 3D visualizations of impact zones and orbital paths
-
-
-
-Web-based deployment via Streamlit Cloud for public accessibility
-
-
-
-📝 References \& Resources
-
-
-
-NASA Near-Earth Object Program
-
-
-
-USGS Geological Datasets
-
-
-
-Hackathon Challenge: NASA Space Apps 2025
+-Hackathon Challenge: NASA Space Apps 2025
 
 
 
