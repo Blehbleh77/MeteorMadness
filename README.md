@@ -1,19 +1,6 @@
 # **🌌 Meteor Madness- NASA Space Apps 2025**
 
 
-
-![Meteor Madness Banner](assets/images/readme_banner.png)
-
-
-
-**Interactive Asteroid Impact Simulation & Arcade Game**
-
-
-
----
-
-
-
 ## 🚀Challenge Overview
 
 
