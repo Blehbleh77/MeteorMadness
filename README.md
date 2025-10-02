@@ -20,7 +20,11 @@
 
 \*\*Event:\*\* 2025 NASA Space Apps Challenge  
 
+
+
 \*\*Difficulty:\*\* Beginner/Youth, Intermediate, Advanced  
+
+
 
 \*\*Subjects:\*\* Astrophysics, Coding, Data Analysis, Disaster Response, Space Exploration, Statistics  
 
@@ -46,28 +50,14 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 \- Enable users to \*\*simulate asteroid impacts\*\* using size, velocity, angle, and material inputs  
 
+
+
 \- Calculate \*\*impact energy, crater size, and environmental effects\*\*  
 
-\- Provide \*\*interactive visualizations\*\* with Pygame arcade gamepl
 
 
-MeteorMadness/
+\- Provide \*\*interactive visualizations\*\* with Pygame arcade gameplay
 
-├── main\_menu.py # Streamlit hub to launch modes
-
-├── game\_mode.py # Arcade Pygame game
-
-├── exploration\_mode.py # Asteroid impact simulation (Streamlit, future Pygame)
-
-├── assets/ # Fonts, images, and media
-
-│ ├── fonts/
-
-│ └── images/
-
-├── requirements.txt # Python dependencies
-
-└── README.md # This file
 
 
 
@@ -85,7 +75,11 @@ MeteorMadness/
 
 \- Flick meteors away to protect Earth  
 
+
+
 \- Dynamic asteroid spawning with increasing difficulty  
+
+
 
 \- Explosions, score tracking, and game-over mechanics  
 
@@ -105,9 +99,15 @@ MeteorMadness/
 
 \- Input asteroid parameters: \*\*diameter, velocity, impact angle, material, location\*\*  
 
+
+
 \- Calculates \*\*mass, effective energy, and estimated crater size\*\*  
 
+
+
 \- Shows \*\*potential risks and environmental effects\*\* (tsunamis, fires, shockwaves)  
+
+
 
 \- Designed with \*\*neon-themed interface\*\* for an engaging user experience  
 
@@ -127,7 +127,11 @@ MeteorMadness/
 
 \- One-click access to both \*\*Game Mode\*\* and \*\*Exploration Mode\*\*  
 
+
+
 \- Launch Pygame locally or Exploration Mode in browser  
+
+
 
 \- Visually appealing with logo and instructions  
 
@@ -191,17 +195,35 @@ streamlit run main\_menu.py
 
 \- \*\*Languages \& Libraries:\*\* Python, Pygame, Streamlit, NumPy  
 
+
+
+
+
 \- \*\*Physics \& Calculations:\*\*
+
+
 
 &nbsp; - Kinetic energy and mass based on asteroid size \& material  
 
+
+
 &nbsp; - Crater diameter scaling and angle effects  
+
+
 
 &nbsp; - Environmental risk modeling (land/ocean, shallow/steep impacts)  
 
+
+
+
+
 \- \*\*Assets:\*\* Fonts, images, and UI effects for immersive gameplay  
 
+
+
 \- \*\*Modular Design:\*\* Easily extendable for new modes, asteroid types, or datasets  
+
+
 
 
 
