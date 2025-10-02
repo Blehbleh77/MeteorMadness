@@ -2,7 +2,7 @@
 
 
 
-![Meteor Madness Banner](assets/images/meteor_madness_banner.png)
+![Meteor Madness Banner](assets/images/readme_banner.png)
 
 
 
@@ -32,7 +32,7 @@
 
 NASA’s challenge:
 
-> A newly identified near-Earth asteroid, \\\*Impactor-2025\\\*, poses a potential threat to Earth. Develop an interactive visualization and simulation tool that integrates NASA and USGS datasets, allowing users to model asteroid impact scenarios, predict consequences, and explore mitigation strategies.
+> A newly identified near-Earth asteroid, *Impactor-2025*, poses a potential threat to Earth. Develop an interactive visualization and simulation tool that integrates NASA and USGS datasets, allowing users to model asteroid impact scenarios, predict consequences, and explore mitigation strategies.
 
 
 
@@ -70,7 +70,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-#### 1. Game Mode (Arcade)
+### 1. Game Mode (Arcade)
 
 
 
@@ -94,7 +94,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-#### **2. Exploration Mode** (Simulation)
+### 2. Exploration Mode (Simulation)
 
 
 
@@ -138,7 +138,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-![Main Menu Screenshot](assets/images/main\_menu\_screenshot.png)
+![Main Menu Screenshot](assets/images/main_menu_screenshot.png)
 
 
 
@@ -154,9 +154,9 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 ```bash
 
-git clone https://github.com/YourUsername/MeteorMadness.git
+git clone https://github.com/Blehbleh77/Meteor_Madness.git
 
-cd MeteorMadness
+cd Meteor_Madness
 
 ```
 
@@ -202,17 +202,14 @@ streamlit run main_menu.py
 
 - **Physics & Calculations:**
 
+  
+  - Kinetic energy and mass based on asteroid size & material
 
 
-  - Kinetic energy and mass based on asteroid size \& material
+  - Crater diameter scaling and angle effects
 
 
-
-  - Crater diameter scaling and angle effects
-
-
-
-  - Environmental risk modeling (land/ocean, shallow/steep impacts)
+  - Environmental risk modeling (land/ocean, shallow/steep impacts)
 
 
 
@@ -230,7 +227,6 @@ streamlit run main_menu.py
 
 ---
 
-#### 
 
 ## 🏆 Standout Features
 
@@ -272,7 +268,7 @@ streamlit run main_menu.py
 
 
 
-- Gameplay Video (optional, if you record one)
+- Gameplay and Simulation Video
 
 - Screenshots included above for visual reference
 
@@ -322,5 +318,5 @@ streamlit run main_menu.py
 
 **Team Meteor Madness**
 
-- GitHub: [https://github.com/Blehbleh77/MeteorMadness](https://github.com/Blehbleh77/MeteorMadness)(...)
+- GitHub: [https://github.com/Blehbleh77/MeteorMadness](https://github.com/Blehbleh77/MeteorMadness)
 
