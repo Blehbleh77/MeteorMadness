@@ -14,7 +14,7 @@
 
 
 
-## ** 🚀Challenge Overview**
+## 🚀Challenge Overview
 
 
 
@@ -70,7 +70,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-### 1. Game Mode (Arcade)
+#### 1. Game Mode (Arcade)
 
 
 
@@ -94,7 +94,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-## **2. Exploration Mode** (Simulation)
+#### **2. Exploration Mode** (Simulation)
 
 
 
@@ -122,7 +122,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-## **3. Streamlit Main Menu** (Hub)
+### **3. Streamlit Main Menu** (Hub)
 
 
 
