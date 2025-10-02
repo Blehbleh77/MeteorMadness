@@ -167,7 +167,7 @@ MeteorMadness/
 
 git clone https://github.com/YourUsername/MeteorMadness.git
 
-cd MeteorMadness
+cd MeteorMadness```
 
 ---
 
@@ -179,7 +179,7 @@ cd MeteorMadness
 
 ```bash
 
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ---
 
@@ -192,7 +192,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run main\_menu.py
 
-
+```
 
 ---
 
