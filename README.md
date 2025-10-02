@@ -1,4 +1,4 @@
-# **# 🌌 Meteor Madness - NASA Space Apps 2025 Submission**
+# **🌌 Meteor Madness- NASA Space Apps 2025** 
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-\*\*Interactive Asteroid Impact Simulation \& Arcade Game\*\*
+**Interactive Asteroid Impact Simulation \& Arcade Game**
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-\## 🚀 Challenge Overview
+#### \##🚀 Challenge Overview
 
 
 
@@ -44,7 +44,7 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\## 🎯 Objectives
+#### \## 🎯 Objectives
 
 
 
@@ -65,11 +65,11 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\## 🎮 Features
+#### \## 🎮 Features
 
 
 
-\### 1. Game Mode (Arcade)
+##### \### 1. Game Mode (Arcade)
 
 
 
@@ -93,7 +93,7 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\### 2. Exploration Mode (Simulation)
+##### \### 2. Exploration Mode (Simulation)
 
 
 
@@ -121,7 +121,7 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\### 3. Streamlit Main Menu (Hub)
+##### \### 3. Streamlit Main Menu (Hub)
 
 
 
@@ -145,11 +145,11 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\## ⚙️ How to Run
+#### \## ⚙️ How to Run
 
 
 
-\### 1. Clone Repository
+##### \### 1. Clone Repository
 
 ```bash
 
@@ -161,7 +161,7 @@ cd MeteorMadness
 
 
 
-\### 2. Install Dependencies
+##### \### 2. Install Dependencies
 
 
 
@@ -173,7 +173,7 @@ pip install -r requirements.txt
 
 
 
-\### 3. Run Main Menu (Streamlit Hub)
+##### \### 3. Run Main Menu (Streamlit Hub)
 
 
 
@@ -189,7 +189,7 @@ streamlit run main\_menu.py
 
 
 
-\## 📊 Technical Details
+#### \## 📊 Technical Details
 
 
 
@@ -229,9 +229,9 @@ streamlit run main\_menu.py
 
 ---
 
+#### 
 
-
-\## 🏆 Standout Features
+#### \## 🏆 Standout Features
 
 
 
@@ -251,7 +251,7 @@ streamlit run main\_menu.py
 
 
 
-\## 📂 Submission Notes
+#### \## 📂 Submission Notes
 
 
 
@@ -267,7 +267,7 @@ streamlit run main\_menu.py
 
 
 
-\## 📹 Demo / Media
+#### \## 📹 Demo / Media
 
 
 
@@ -281,7 +281,7 @@ streamlit run main\_menu.py
 
 
 
-\## 🔮 Future Work
+#### \## 🔮 Future Work
 
 
 
@@ -299,7 +299,7 @@ streamlit run main\_menu.py
 
 
 
-\## 📝 References \& Resources
+#### \## 📝 References \& Resources
 
 
 
@@ -315,7 +315,7 @@ streamlit run main\_menu.py
 
 
 
-\## 📧 Contact
+#### \## 📧 Contact
 
 
 
