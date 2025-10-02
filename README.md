@@ -132,50 +132,42 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 ---
 
 
-
 ## ⚙️ How to Run
 
+**Prerequisites:**
 
+- Python 3.x installed ([Download Python](https://www.python.org/downloads/))
 
-### 1. Clone Repository
+- pip installed (comes with Python)
+
+- Optional: Create a virtual environment to avoid conflicts
+
+**Steps:**
+
+1. Open your terminal / command prompt / PowerShell.
+
+2. Clone the repository:
 
 ```bash
-
 git clone https://github.com/Blehbleh77/Meteor_Madness.git
-
 cd Meteor_Madness
-
 ```
 
-
-
-### 2. Install Dependencies
-
-
+3.Install required packages:
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-
-
-### 3. Run Main Menu (Streamlit Hub)
-
+4.Run the Streamlit main menu:
 
 
 ```bash
-
 streamlit run main_menu.py
-
 ```
 
 
 ---
-
-
-
 
 ## 📊 Technical Details
 
@@ -209,10 +201,8 @@ streamlit run main_menu.py
 - **Modular Design:** Easily extendable for new modes, asteroid types, or datasets
 
 
-
-
-
 ---
+
 
 
 ## 🏆 Standout Features
@@ -230,9 +220,7 @@ streamlit run main_menu.py
 - **Accessibility & Engagement:** Easy-to-use hub for all audiences
 
 
-
 ---
-
 
 
 ## 📂 Submission Notes
@@ -241,27 +229,9 @@ streamlit run main_menu.py
 
 - Assets folder must remain in the same directory as Python files
 
-- Future plan: Convert `exploration_mode.py` to Pygame for consistent gameplay
 
-- Optional: Package Game Mode and Exploration Mode as executables with PyInstaller
+- Package Game Mode and Exploration Mode as executables with PyInstaller
 
-
-
----
-
-
-
-## 📹 Demo / Media
-
-
-
-- Gameplay and Simulation Video
-
-- Screenshots included above for visual reference
-
-
-
----
 
 
 
@@ -277,9 +247,6 @@ streamlit run main_menu.py
 
 - Web-based deployment via Streamlit Cloud for public accessibility
 
-
-
----
 
 
 
@@ -303,7 +270,8 @@ streamlit run main_menu.py
 
 
 
-**Team Meteor Madness**
+**Team Celestial Coders**
 
 - GitHub: [https://github.com/Blehbleh77/MeteorMadness](https://github.com/Blehbleh77/MeteorMadness)
+
 
