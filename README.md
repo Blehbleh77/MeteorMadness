@@ -153,25 +153,31 @@ git clone https://github.com/YourUsername/MeteorMadness.git
 
 cd MeteorMadness
 
-
-
-\###2. Install Dependencies
-
+```
 
 
 
+\### 2. Install Dependencies
+
+
+
+```bash
 
 pip install -r requirements.txt
 
+```
 
 
 
+\### 3. Run Main Menu (Streamlit Hub)
 
-\###3. Run Main Menu (Streamlit Hub)
 
 
+```bash
 
 streamlit run main\_menu.py
+
+```
 
 
 
