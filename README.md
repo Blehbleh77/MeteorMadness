@@ -1,5 +1,4 @@
-
-# 🌌 Meteor Madness - NASA Space Apps 2025 Submission
+\# 🌌 Meteor Madness - NASA Space Apps 2025 Submission
 
 
 
@@ -45,24 +44,11 @@ Our solution: \*\*Meteor Madness\*\* – an engaging, educational, and scientifi
 
 
 
-\- Enable users to \*\*simulate asteroid impacts\*\* using size, velocity, angle, and material inputs.  
+\- Enable users to \*\*simulate asteroid impacts\*\* using size, velocity, angle, and material inputs  
 
-\- Calculate \*\*impact energy, crater size, and environmental effects\*\*.  
+\- Calculate \*\*impact energy, crater size, and environmental effects\*\*  
 
-\- Provide \*\*interactive visualizations\*\* with Pygame arcade gameplay and exploration mode.  
-
-\- Combine \*\*educational and gamified elements\*\* to engage both public and policymakers.  
-
-\- Build a \*\*modular system\*\* for future expansion with real NASA and USGS datasets.
-
-
-
----
-
-
-
-\## 🧩 Project Structure
-
+\- Provide \*\*interactive visualizations\*\* with Pygame arcade gamepl
 
 
 MeteorMadness/
@@ -85,8 +71,6 @@ MeteorMadness/
 
 
 
-
-
 ---
 
 
@@ -99,11 +83,11 @@ MeteorMadness/
 
 
 
-\- Flick meteors away to protect Earth.  
+\- Flick meteors away to protect Earth  
 
-\- Dynamic asteroid spawning with increasing difficulty.  
+\- Dynamic asteroid spawning with increasing difficulty  
 
-\- Explosions, score tracking, and game-over mechanics.  
+\- Explosions, score tracking, and game-over mechanics  
 
 
 
@@ -119,13 +103,13 @@ MeteorMadness/
 
 
 
-\- Input asteroid parameters: \*\*diameter, velocity, impact angle, material, location\*\*.  
+\- Input asteroid parameters: \*\*diameter, velocity, impact angle, material, location\*\*  
 
-\- Calculates \*\*mass, effective energy, and estimated crater size\*\*.  
+\- Calculates \*\*mass, effective energy, and estimated crater size\*\*  
 
-\- Shows \*\*potential risks and environmental effects\*\* (tsunamis, fires, shockwaves).  
+\- Shows \*\*potential risks and environmental effects\*\* (tsunamis, fires, shockwaves)  
 
-\- Designed with \*\*neon-themed interface\*\* for an engaging user experience.  
+\- Designed with \*\*neon-themed interface\*\* for an engaging user experience  
 
 
 
@@ -141,11 +125,11 @@ MeteorMadness/
 
 
 
-\- One-click access to both \*\*Game Mode\*\* and \*\*Exploration Mode\*\*.  
+\- One-click access to both \*\*Game Mode\*\* and \*\*Exploration Mode\*\*  
 
-\- Launch Pygame locally or Exploration Mode in browser.  
+\- Launch Pygame locally or Exploration Mode in browser  
 
-\- Visually appealing with logo and instructions.  
+\- Visually appealing with logo and instructions  
 
 
 
@@ -163,19 +147,11 @@ MeteorMadness/
 
 \### 1. Clone Repository
 
-
-
 ```bash
 
 git clone https://github.com/YourUsername/MeteorMadness.git
 
-cd MeteorMadness```
-
-
-
----
-
-
+cd MeteorMadness
 
 
 
@@ -183,13 +159,9 @@ cd MeteorMadness```
 
 
 
-```bash
-
-pip install -r requirements.txt```
 
 
-
----
+pip install -r requirements.txt
 
 
 
@@ -199,10 +171,31 @@ pip install -r requirements.txt```
 
 
 
-```
 streamlit run main\_menu.py
 
-```
+
+
+
+
+
+
+\## 📊 Technical Details
+
+
+
+\- \*\*Languages \& Libraries:\*\* Python, Pygame, Streamlit, NumPy  
+
+\- \*\*Physics \& Calculations:\*\*
+
+&nbsp; - Kinetic energy and mass based on asteroid size \& material  
+
+&nbsp; - Crater diameter scaling and angle effects  
+
+&nbsp; - Environmental risk modeling (land/ocean, shallow/steep impacts)  
+
+\- \*\*Assets:\*\* Fonts, images, and UI effects for immersive gameplay  
+
+\- \*\*Modular Design:\*\* Easily extendable for new modes, asteroid types, or datasets  
 
 
 
@@ -210,85 +203,97 @@ streamlit run main\_menu.py
 
 
 
-\##📊 Technical Details
+\## 🏆 Standout Features
 
 
 
--Languages \& Libraries: Python, Pygame, Streamlit, NumPy
+\- \*\*Gamification:\*\* Arcade mode and interactive exploration  
 
--Physics \& Calculations:
+\- \*\*Educational Overlays:\*\* Tooltips and explanations of physics concepts  
 
--Kinetic energy and mass based on asteroid size \& material
+\- \*\*Neon Visuals:\*\* Sci-fi themed interface for engagement  
 
--Crater diameter scaling and angle effects
+\- \*\*Expandable Framework:\*\* Ready for real NASA \& USGS dataset integration  
 
--Environmental risk modeling (land/ocean, shallow/steep impacts)
+\- \*\*Accessibility \& Engagement:\*\* Easy-to-use hub for all audiences  
 
--Assets: Fonts, images, and UI effects for immersive gameplay
 
--Modular Design: Easily extendable for new modes, asteroid types, or datasets
 
 ---
 
 
 
-\##🏆 Standout Features
+\## 📂 Submission Notes
 
 
 
--Gamification: Arcade mode and interactive exploration
+\- Assets folder must remain in the same directory as Python files  
 
--Educational Overlays: Tooltips and explanations of physics concepts
+\- Future plan: Convert `exploration\_mode.py` to Pygame for consistent gameplay  
 
--Neon Visuals: Sci-fi themed interface for engagement
+\- Optional: Package Game Mode and Exploration Mode as executables with PyInstaller  
 
--Expandable Framework: Ready for real NASA \& USGS dataset integration
 
--Accessibility \& Engagement: Easy-to-use hub for all audiences📂 Submission Notes
-
--Assets folder must remain in the same directory as Python files
-
--Future plan: Convert exploration\_mode.py to Pygame for consistent gameplay
-
--Optional: Package Game Mode and Exploration Mode as executables with PyInstaller
 
 ---
 
 
 
-\##📹 Demo / Media
+\## 📹 Demo / Media
 
--Gameplay Video (optional, if you record one)
 
--Screenshots included above for visual reference
+
+\- Gameplay Video (optional, if you record one)  
+
+\- Screenshots included above for visual reference  
+
+
 
 ---
 
-\##🔮 Future Work
 
--Integrate real NASA NEO API data for asteroid trajectories
 
--Model deflection strategies like kinetic impactors or gravity tractors
+\## 🔮 Future Work
 
--Add 3D visualizations of impact zones and orbital paths
 
--Web-based deployment via Streamlit Cloud for public accessibility
+
+\- Integrate real NASA NEO API data for asteroid trajectories  
+
+\- Model deflection strategies like kinetic impactors or gravity tractors  
+
+\- Add 3D visualizations of impact zones and orbital paths  
+
+\- Web-based deployment via Streamlit Cloud for public accessibility  
+
+
 
 ---
 
-\##📝 References \& Resources
 
--NASA Near-Earth Object Program
 
--USGS Geological Datasets
-
--Hackathon Challenge: NASA Space Apps 2025
+\## 📝 References \& Resources
 
 
 
+\- NASA Near-Earth Object Program  
+
+\- USGS Geological Datasets  
+
+\- Hackathon Challenge: NASA Space Apps 2025  
 
 
 
+---
+
+
+
+\## 📧 Contact
+
+
+
+\*\*Team Meteor Madness\*\*  
+
+\- GitHub: \[https://github.com/YourUsername/MeteorMadness](https://github.com/YourUsername/MeteorMadness)  
 
 
 
