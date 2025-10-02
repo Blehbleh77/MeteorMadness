@@ -14,7 +14,7 @@
 
 
 
-##### **🚀Challenge Overview**
+##### **## Challenge Overview**
 
 
 
