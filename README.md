@@ -153,13 +153,23 @@ git clone https://github.com/Blehbleh77/Meteor_Madness.git
 cd Meteor_Madness
 ```
 
-3.Install required packages:
+3.Create a virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+4.Install required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4.Run the Streamlit main menu:
+5.Run the Streamlit main menu:
 
 
 ```bash
