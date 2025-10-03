@@ -56,8 +56,30 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 ## 🎮 Features
 
 
+### **1. Streamlit Main Menu** (Hub)
 
-### 1. Game Mode (Arcade)
+
+
+- One-click access to both **Game Mode** and **Exploration Mode**
+
+
+
+- Launch Pygame locally or Exploration Mode in browser
+
+
+
+- Visually appealing with logo and instructions
+
+
+
+![Main Menu Screenshot](assets/images/readme_mainmenu.jpg)
+
+
+
+---
+
+
+### 2. Game Mode (Arcade)
 
 
 
@@ -81,7 +103,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-### 2. Exploration Mode (Simulation)
+### 3. Exploration Mode (Simulation)
 
 
 
@@ -107,29 +129,6 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 ---
 
-
-
-### **3. Streamlit Main Menu** (Hub)
-
-
-
-- One-click access to both **Game Mode** and **Exploration Mode**
-
-
-
-- Launch Pygame locally or Exploration Mode in browser
-
-
-
-- Visually appealing with logo and instructions
-
-
-
-![Main Menu Screenshot](assets/images/readme_mainmenu.jpg)
-
-
-
----
 
 
 ## ⚙️ How to Run
