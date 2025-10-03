@@ -133,26 +133,40 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 ## ⚙️ How to Run
 
-**Prerequisites:**
+### **Prerequisites**
+- **Python (3.11 or newer)** installed: [Download Python](https://www.python.org/downloads/)  
+  Make sure to check **“Add Python to PATH”** during installation.  
+- **pip** (comes with Python, installed with Python)  
+- **Optional but recommended:** a virtual environment to avoid package conflicts
 
-- Python (3.11 or newer) installed ([Download Python](https://www.python.org/downloads/))
+---
 
-- pip installed (comes with Python)
+### **Step 1: Get the Project Files**
 
-- Optional: Create a virtual environment to avoid conflicts
+You can get the files in **two ways**: using Git or a ZIP download.
 
-**Steps:**
+#### **Option A: Download ZIP (No Git Needed)**
 
-1. Open your terminal / command prompt / PowerShell.
+1. Go to the GitHub repository: [Meteor Madness](https://github.com/Blehbleh77/Meteor_Madness)  
+2. Click the **Code** button (green) → Select **Download ZIP**.  
+3. Save the ZIP file to a folder on your computer (e.g., `Downloads`).  
+4. **Extract the ZIP**:  
+   - **Windows:** Right-click → Extract All → Choose a folder (e.g., `C:\Meteor_Madness`)  
+   - **macOS:** Double-click the ZIP → It creates a folder with the project files  
+   - **Linux:** Right-click → Extract Here, or use `unzip Meteor_Madness.zip` in terminal  
+5. Open the folder containing the extracted files. You should see files like `main_menu.py`, `game_mode.py`, `exploration_mode.py`, `requirements.txt`, and the `assets` folder.
 
-2. Clone the repository:
+#### **Option B: Use Git (If Installed)**
+
+If you have Git installed, open a terminal / command prompt:
 
 ```bash
 git clone https://github.com/Blehbleh77/Meteor_Madness.git
 cd Meteor_Madness
 ```
 
-3.Create a virtual environment (optional but recommended)
+
+### **Step 2: Create a virtual environment (optional but recommended)**
 
 ```bash
 python -m venv venv
@@ -162,13 +176,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-4.Install required packages:
+### **Step 3: Install Required Packages**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5.Run the Streamlit main menu:
+### **Step 4: Run the Streamlit main menu:**
 
 
 ```bash
