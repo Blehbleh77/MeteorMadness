@@ -147,14 +147,26 @@ You can get the files in **two ways**: using Git or a ZIP download.
 
 #### **Option A: Download ZIP (No Git Needed)**
 
-1. Go to the GitHub repository: [Meteor Madness](https://github.com/Blehbleh77/Meteor_Madness)  
+1. Go to the GitHub repository
 2. Click the **Code** button (green) → Select **Download ZIP**.  
-3. Save the ZIP file to a folder on your computer (e.g., `Downloads`).  
+3. Save the ZIP file to a folder on your computer .
 4. **Extract the ZIP**:  
    - **Windows:** Right-click → Extract All → Choose a folder (e.g., `C:\Meteor_Madness`)  
    - **macOS:** Double-click the ZIP → It creates a folder with the project files  
    - **Linux:** Right-click → Extract Here, or use `unzip Meteor_Madness.zip` in terminal  
-5. Open the folder containing the extracted files. You should see files like `main_menu.py`, `game_mode.py`, `exploration_mode.py`, `requirements.txt`, and the `assets` folder.
+5. After extraction, note the folder name. GitHub usually names it `Meteor_Madness-main`.  
+   - You can either **rename it to `Meteor_Madness`** for consistency or keep the original name.
+6. **Open a terminal / command prompt / PowerShell**.
+7. **Navigate into the extracted folder*
+
+```bash
+# If you kept the default name
+cd path\to\Meteor_Madness-main
+```
+
+# Or if you renamed it
+cd path\to\Meteor_Madness
+
 
 #### **Option B: Use Git (If Installed)**
 
