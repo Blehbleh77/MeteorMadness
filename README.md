@@ -73,7 +73,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-![Game Mode Screenshot](assets/images/game_mode_screenshot.png)
+![Game Mode Screenshot](assets/images/readme_game.jpg)
 
 
 
@@ -101,7 +101,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-![Exploration Mode Screenshot](assets/images/exploration_mode_screenshot.png)
+![Exploration Mode Screenshot](assets/images/readme_exploration.jpg)
 
 
 
@@ -125,7 +125,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 
 
-![Main Menu Screenshot](assets/images/main_menu_screenshot.png)
+![Main Menu Screenshot](assets/images/readme_mainmenu.jpg)
 
 
 
@@ -136,7 +136,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 
 **Prerequisites:**
 
-- Python 3.x installed ([Download Python](https://www.python.org/downloads/))
+- Python (3.11 or newer) installed ([Download Python](https://www.python.org/downloads/))
 
 - pip installed (comes with Python)
 
