@@ -8,6 +8,7 @@ import os
 BASE_DIR = os.path.dirname(__file__)
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 FONTS_DIR = os.path.join(ASSETS_DIR, "fonts")
+IMAGES_DIR = os.path.join(ASSETS_DIR, "images")
 
 # Initialize pygame
 pygame.init()
@@ -52,7 +53,7 @@ explosions = []  # [x, y, frame]
 
 # --- Load assets (images) ---
 def load_image(filename, scale=None, alpha=True):
-    path = os.path.join(ASSETS_DIR, filename)
+    path = os.path.join(IMAGES_DIR, filename)
     if not os.path.exists(path):
         print(f"❌ ERROR: Missing image {filename} in assets/")
         pygame.quit()
@@ -62,7 +63,7 @@ def load_image(filename, scale=None, alpha=True):
         img = pygame.transform.scale(img, scale)
     return img
 
-earth_img = load_image("Earth.png", (earth_radius * 2, earth_radius * 2))
+earth_img = load_image("Earth1.png", (earth_radius * 2, earth_radius * 2))
 meteor_img = load_image("meteor.png")
 meteor_base_size = 40
 galaxy_bg = load_image("stars_minimal.jpg", (WIDTH, HEIGHT), alpha=False)
