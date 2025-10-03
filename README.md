@@ -134,7 +134,7 @@ Our solution: **Meteor Madness** – an engaging, educational, and scientificall
 ## ⚙️ How to Run
 
 ### **Prerequisites**
-- **Python (3.11 or newer)** installed: [Download Python](https://www.python.org/downloads/)  
+- **Python (3.10 or 3.11)** installed: [Download Python](https://www.python.org/downloads/)  
   Make sure to check **“Add Python to PATH”** during installation.  
 - **pip** (comes with Python, installed with Python)  
 - **Optional but recommended:** a virtual environment to avoid package conflicts
@@ -151,22 +151,9 @@ You can get the files in **two ways**: using Git or a ZIP download.
 2. Click the **Code** button (green) → Select **Download ZIP**.  
 3. Save the ZIP file to a folder on your computer .
 4. **Extract the ZIP**:  
-   - **Windows:** Right-click → Extract All → Choose a folder (e.g., `C:\Meteor_Madness`)  
+   - **Windows:** Right-click → Extract All → Choose a folder 
    - **macOS:** Double-click the ZIP → It creates a folder with the project files  
    - **Linux:** Right-click → Extract Here, or use `unzip Meteor_Madness.zip` in terminal  
-5. After extraction, note the folder name. GitHub usually names it `Meteor_Madness-main`.  
-   - You can either **rename it to `Meteor_Madness`** for consistency or keep the original name.
-6. **Open a terminal / command prompt / PowerShell**.
-7. **Navigate into the extracted folder*
-
-```bash
-# If you kept the default name
-cd path\to\Meteor_Madness-main
-```
-
-# Or if you renamed it
-cd path\to\Meteor_Madness
-
 
 #### **Option B: Use Git (If Installed)**
 
@@ -190,6 +177,9 @@ source venv/bin/activate
 
 ### **Step 3: Install Required Packages**
 
+- Open Command Prompt
+- Change directory to the folder with the requirements.txt file
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -198,7 +188,7 @@ pip install -r requirements.txt
 
 
 ```bash
-streamlit run main_menu.py
+python -m streamlit run main_menu.py
 ```
 
 
