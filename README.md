@@ -155,6 +155,13 @@ You can get the files in **two ways**: using Git or a ZIP download.
    - **macOS:** Double-click the ZIP → It creates a folder with the project files  
    - **Linux:** Right-click → Extract Here, or use `unzip Meteor_Madness.zip` in terminal  
 
+
+⚠️ **Note:** After extraction, you might see a folder inside another folder like  
+`Meteor_Madness-main/Meteor_Madness-main/`  
+Make sure you open the *inner* folder — the one that contains files like:  
+`main_menu.py`, `requirements.txt`, and the `assets` folder.
+
+
 #### **Option B: Use Git (If Installed)**
 
 If you have Git installed, open a terminal / command prompt:
@@ -177,8 +184,8 @@ source venv/bin/activate
 
 ### **Step 3: Install Required Packages**
 
-- Open Command Prompt
-- Change directory to the folder with the requirements.txt file
+1. Open Command Prompt
+2. Change directory to the folder with the requirements.txt file
 
 ```bash
 pip install -r requirements.txt
@@ -186,13 +193,21 @@ pip install -r requirements.txt
 
 ### **Step 4: Run the Streamlit main menu:**
 
+Run this command in the same terminal:
 
 ```bash
 python -m streamlit run main_menu.py
 ```
 
+If that doesn’t work, try this alternative:
+
+```bash
+python -m streamlit run main_menu.py
+```
 
 ---
+
+
 
 ## 📊 Technical Details
 
