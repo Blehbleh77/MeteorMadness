@@ -7,8 +7,8 @@ import os
 # --- Step 1: Setup Base Directory for Assets ---
 BASE_DIR = os.path.dirname(__file__)
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
-FONTS_DIR = os.path.join(ASSETS_DIR, "fonts")
 IMAGES_DIR = os.path.join(ASSETS_DIR, "images")
+FONTS_DIR = os.path.join(ASSETS_DIR, "fonts")
 
 # Initialize pygame
 pygame.init()
@@ -16,7 +16,7 @@ pygame.init()
 # Screen settings
 WIDTH, HEIGHT = 900, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Meteor Madness - Save the Earth!")
+pygame.display.set_caption("Asteroid Assault - Save the Earth!")
 
 # Colors
 BLACK = (0, 0, 0)
@@ -95,7 +95,7 @@ def start_screen():
         screen.blit(earth_display, earth_rect)
 
         # Title
-        title_text = "Meteor Madness"
+        title_text = "Asteroid Assault"
         title_shadow = title_font.render(title_text, True, (30, 30, 30))
         title = title_font.render(title_text, True, WHITE)
         shadow_rect = title_shadow.get_rect(center=(WIDTH // 2 + 2, HEIGHT // 2 - 118))

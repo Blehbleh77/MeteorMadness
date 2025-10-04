@@ -162,6 +162,8 @@ Make sure you open the *inner* folder — the one that contains files like:
 `main_menu.py`, `requirements.txt`, and the `assets` folder.
 
 
+
+
 #### **Option B: Use Git (If Installed)**
 
 If you have Git installed, open a terminal / command prompt:
@@ -172,17 +174,7 @@ cd Meteor_Madness
 ```
 
 
-### **Step 2: Create a virtual environment (optional but recommended)**
-
-```bash
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-```
-
-### **Step 3: Install Required Packages**
+### **Step 2: Install Required Packages**
 
 1. Open Command Prompt
 2. Change directory to the folder with the requirements.txt file
@@ -191,7 +183,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### **Step 4: Run the Streamlit main menu:**
+### **Step 3: Run the Streamlit main menu:**
 
 Run this command in the same terminal:
 

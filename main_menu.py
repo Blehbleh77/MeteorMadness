@@ -8,7 +8,7 @@ import base64
 BASE_DIR = os.path.dirname(__file__)
 GAME_MODE_PATH = os.path.join(BASE_DIR, "game_mode.py")
 EXPLORATION_MODE_PATH = os.path.join(BASE_DIR, "exploration_mode.py")
-BG_IMAGE_PATH = os.path.join(BASE_DIR, "assets", "starry_background.jpg")
+BG_IMAGE_PATH = os.path.join(BASE_DIR, "assets","images", "starry_background.jpg")
 
 # --- Colors ---
 NEON_BLUE_ACCENT_COLOR = "#00BFFF"
@@ -33,7 +33,7 @@ def get_base64_image(image_path):
 bg_base64 = get_base64_image(BG_IMAGE_PATH)
 
 # --- Streamlit Page Config ---
-st.set_page_config(page_title="Meteor Madness Hub", layout="wide")
+st.set_page_config(page_title="Crash \'n\' Course ", layout="wide")
 
 # --- CSS ---
 # --- IMPORTANT CHANGE 2: Conditionally apply CSS if image was loaded ---
@@ -98,7 +98,7 @@ if bg_base64:
             text-align: center;
             margin-bottom: 40px;
             display: flex;
-            justify-content: center; /* This is the key centering line for its contents */
+            justify-content: center;
         }}
 
         /* Button style */
@@ -139,20 +139,12 @@ else:
 
 
 # --- Title ---
-st.markdown('<div class="title-box">🌌 Meteor Madness</div>', unsafe_allow_html=True)
+st.markdown('<div class="title-box">🌌 CRASH \'n\' COURSE </div>', unsafe_allow_html=True)
 
 # --- Boxes in two columns ---
 col1, col2 = st.columns(2)
 
-# --- Function to simulate launch ---
-def launch_game(path, is_streamlit):
-    """Placeholder function for launch logic to prevent errors in an environment without file access."""
-    if is_streamlit:
-        st.info(f"Simulating launch of Streamlit app: {path}")
-        # Original logic: subprocess.Popen([sys.executable, "-m", "streamlit", "run", path])
-    else:
-        st.info(f"Simulating launch of Python script: {path}")
-        # Original logic: subprocess.Popen([sys.executable, path])
+
 
 # --- Column 1: Game Mode ---
 with col1:
@@ -177,9 +169,7 @@ with col1:
         # st.button is now inside the center column
         if st.button("🚀 Launch Game Mode", key="game", use_container_width=True):
             try:
-                launch_game(GAME_MODE_PATH, is_streamlit=False)
                 subprocess.Popen([sys.executable, GAME_MODE_PATH])
-                st.success("Game Mode launched!")
             except Exception as e:
                 st.error(f"Failed to launch: {e}")
 
@@ -202,9 +192,7 @@ with col2:
         # st.button is now inside the center column
         if st.button("🔭 Launch Exploration Mode", key="explore", use_container_width=True):
             try:
-                launch_game(EXPLORATION_MODE_PATH, is_streamlit=False)
                 subprocess.Popen([sys.executable, EXPLORATION_MODE_PATH])
-                st.success("Exploration Mode launched!")
             except Exception as e:
                 st.error(f"Failed to launch: {e}")
 
