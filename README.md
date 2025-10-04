@@ -188,7 +188,7 @@ pip install -r requirements.txt
 Run this command in the same terminal:
 
 ```bash
-python -m streamlit run main_menu.py
+streamlit run main_menu.py
 ```
 
 If that doesn’t work, try this alternative:
